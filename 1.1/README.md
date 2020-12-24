@@ -84,12 +84,12 @@ Info: This operation may take a few seconds. Please wait for a moment...done.
 [S5-GigabitEthernet0/0/1]port link-type trunk 
 [S5-GigabitEthernet0/0/1]port trunk allow-pass vlan 1 2
 [S5-GigabitEthernet0/0/1]int e0/0/3
-[S5-Ethernet0/0/1]port link-type access 
-[S5-Ethernet0/0/1]port default vlan 1
-[S5-Ethernet0/0/1]int e0/0/4
-[S5-Ethernet0/0/2]port link-type access 
-[S5-Ethernet0/0/2]port default vlan 2
-[S5-Ethernet0/0/2]return
+[S5-Ethernet0/0/3]port link-type access 
+[S5-Ethernet0/0/3]port default vlan 1
+[S5-Ethernet0/0/3]int e0/0/4
+[S5-Ethernet0/0/4]port link-type access 
+[S5-Ethernet0/0/4]port default vlan 2
+[S5-Ethernet0/0/4]return
 <S5>save
 The current configuration will be written to the device.
 Are you sure to continue?[Y/N]y
